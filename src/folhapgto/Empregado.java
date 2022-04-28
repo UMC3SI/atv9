@@ -89,6 +89,8 @@ public class Empregado {
     public void imprimir(){
         System.out.println("Nome: " + nome);
         System.out.println("Endereco: " + endereco);
-        System.out.println("Salario: " + salario + "\n");
+        System.out.println("Salario: " + salario);
+        System.out.println("Desconto IRPF: " + calcularIrpf());
+        System.out.println("Desconto INSS: " + calcularInss() + "\n");
     }
 }
